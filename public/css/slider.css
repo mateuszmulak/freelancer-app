@@ -1,0 +1,17 @@
+
+.snap-x {
+    scroll-snap-type: x mandatory;
+
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.snap-start {
+    scroll-snap-align: start;
+}
+
+.padding{
+    max-width: 50vw;
+    text-align: center;
+    top: 20%;
+}

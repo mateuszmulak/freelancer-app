@@ -1,0 +1,59 @@
+.my_link_button {
+    max-width: 120px;
+    min-height: 50px;
+}
+
+.bg-color-gray-100 {
+    --bg-opacity: 1;
+    background-color: #f7fafc;
+    background-color: rgba(247, 250, 252, var(--bg-opacity))
+}
+
+.progressbar li {
+    width: 25%;
+    margin:auto;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mediumtext {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.icon-bar {
+    z-index: 15;
+    margin-top: 10%;
+    position: fixed;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.facebook {
+    background: #3B5998;
+}
+
+.twitter {
+    background: #55ACEE;
+}
+
+.linkedin {
+    background: #007bb5;
+}
+
+.img{
+    margin: auto;
+}
